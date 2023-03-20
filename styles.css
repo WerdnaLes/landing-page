@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
