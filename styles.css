@@ -31,6 +31,7 @@ img {
 a {
   color: #f9faf8;
   text-decoration: none;
+  padding: 8px 32px;
 }
 
 h1,
@@ -81,9 +82,9 @@ p {
 
 .web-info .button {
   background-color: #3882f6;
-  padding: 8px 32px;
   width: fit-content;
   flex: 1 1 auto;
+  padding: 8px 0;
   border-radius: 10px;
 }
 
@@ -170,6 +171,19 @@ p {
 
 .sign-up-container .sign_btn {
   border: 2px solid #f9faf8;
-  padding: 8px 32px;
+
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  margin: 30px;
 }
