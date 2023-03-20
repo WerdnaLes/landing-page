@@ -33,6 +33,9 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
 p {
   margin: 0;
   padding: 0;
@@ -144,4 +147,29 @@ p {
   justify-content: center;
   align-self: flex-end;
   font-weight: bold;
+}
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  color: #f9faf8;
+}
+
+.sign-up-window {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  background-color: #3882f6;
+  padding: 40px 80px;
+  border-radius: 10px;
+  flex: 2;
+}
+
+.sign-up-container .sign_btn {
+  border: 2px solid #f9faf8;
+  padding: 8px 32px;
+  border-radius: 10px;
 }
