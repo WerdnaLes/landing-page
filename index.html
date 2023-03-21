@@ -4,30 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cat's world</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <div id="top-of-the-page"></div>
     <div class="header">
       <div class="nav">
         <img src="./images/cat-logo.png" class="header-logo"></img>
         <ul class="header-links">
           <li class="link-one">
-            <a
-            href="https://github.com/WerdnaLes/landing-page" target="_blank"
-              >header link1</a
+            <a class="header-link"
+            href="#main-content"
+              >Cats in action</a
             >
           </li>
           <li class="link-two">
-            <a
-            href="https://github.com/WerdnaLes/landing-page" target="_blank"
-              >header link2</a
+            <a class="header-link"
+            href="#quote" 
+              >Quote of the day</a
             >
           </li>
           <li class="link-three">
-            <a
-            href="https://github.com/WerdnaLes/landing-page" target="_blank"
-              >header link3</a
+            <a class="header-link"
+            href="#more-cats-pics" 
+              >More cats pictures</a
             >
           </li>
         </ul>
@@ -36,10 +37,9 @@
     <div class="header-container">
     <div class="header-hero">
       <div class="web-info">
-        <h1>This website is awesome</h1>
+        <h1>Dive in a cute cat's world!</h1>
         <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast
+          Take a break and enjoy some funny pictures of our beloved pets
         </p>
         <div class="button"><a href="https://github.com/WerdnaLes/landing-page" target="_blank">Sign up</a></div>
       </div>
@@ -48,46 +48,54 @@
       </div>
     </div>
   </div>
+  <div class="move-to-main" id="main-content"></div>
     <div class="content">
       <div class="content-info">
-        <h1>Some random info</h1>
+        <h1>Cats in action</h1>
         <div class="describe-info">
           <div class="desc-item">
             <img src="./images/white-cat.jpg" class="image"></img>
-            <p class="text">This is some subtext under illustration or image</p>
+            <p class="text">Waiting for food</p>
           </div>
           <div class="desc-item">
             <img  src="./images/ear-down-cat.jpg" class="image"></img>
-            <p class="text">This is some subtext under illustration or image</p>
+            <p class="text">Wondering why don't you feed him 9 times per day</p>
           </div>
           <div class="desc-item">
             <img src="./images/sleepy-cat.jpg" class="image"></img>
-            <p class="text">This is some subtext under illustration or image</p>
+            <p class="text">Dreaming about food</p>
           </div>
           <div class="desc-item">
             <img src="./images/hunting-cat.jpg" class="image"></img>
-            <p class="text">This is some subtext under illustration or image</p>
+            <p class="text">Preparing to catch some food</p>
           </div>
         </div>
       </div>
-      <div class="content-quote">
+      <div class="content-quote" id="quote">
         <div class="quote-container">
-            <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that is looks nice.</p>
-            <p class="signature">-Thor, God of Thunder</p>
+            <p class="quote">“Owners of dogs will have noticed that, if you provide them with food and water and shelter and affection, they will think you are God. Whereas owners of cats are compelled to realize that, if you provide them with food and water and affection, they draw the conclusion that they are God.”</p>
+            <p class="signature">– Christopher Hitchens</p>
         </div>
       </div>
-      <div class="sign-up-container">
+      <div class="sign-up-container" id="more-cats-pics">
         <div class="sign-up-window">
           <div class="text">
             <h2>Call to action! It's time!</h2>
-            <p>Sign up for product by clicking that button right over there!</p>
+            <p>Search for more cute cats picture to further enhance your great mood after visiting this web-page!</p>
           </div>
-          <div class="sign_btn"><a  href="https://github.com/WerdnaLes/landing-page" target="_blank">Sign up</a></div>
+          <div class="sign_btn"><a  href="https://pixabay.com/images/search/cats/" target="_blank">Search</a></div>
         </div>
       </div>
     </div>
+    <a class="to-top-of-the-site-link" href="#top-of-the-page">
+      <svg class="up-btn" viewbox="0 0 100 100">
+          <path fill="white"
+              d="m50 0c-13.262 0-25.98 5.2695-35.355 14.645s-14.645 22.094-14.645 35.355 5.2695 25.98 14.645 35.355 22.094 14.645 35.355 14.645 25.98-5.2695 35.355-14.645 14.645-22.094 14.645-35.355-5.2695-25.98-14.645-35.355-22.094-14.645-35.355-14.645zm20.832 62.5-20.832-22.457-20.625 22.457c-1.207 0.74219-2.7656 0.57812-3.7891-0.39844-1.0273-0.98047-1.2695-2.5273-0.58594-3.7695l22.918-25c0.60156-0.61328 1.4297-0.96094 2.2891-0.96094 0.86328 0 1.6914 0.34766 2.293 0.96094l22.918 25c0.88672 1.2891 0.6875 3.0352-0.47266 4.0898-1.1562 1.0508-2.9141 1.0859-4.1133 0.078125z">
+          </path>
+      </svg>
+  </a>
     <div class="footer">
-      <p>Copyright © WerdnaLes</p>
+      <p>Copyright © <a class="git-ref" href="https://github.com/WerdnaLes" target="_blank">WerdnaLes</a></p>
     </div>
   </body>
 </html>
