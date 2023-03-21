@@ -28,8 +28,6 @@ li {
   text-align: center;
 }
 
-
-
 h1,
 h2,
 h3,
@@ -68,12 +66,12 @@ p {
   color: #f9faf8;
 }
 
-.header a{
+.header a {
   color: #f9faf8;
   text-decoration: none;
 }
 
-.header-link:hover{
+.header-link:hover {
   border-bottom: #f9faf8 1px solid;
   transition: 0.5s;
 }
@@ -123,7 +121,8 @@ p {
   flex: 1 1 auto;
 }
 
-.header-container a, .sign-up-container a {
+.header-container a,
+.sign-up-container a {
   color: #f9faf8;
   text-decoration: none;
   padding: 8px 32px;
@@ -176,6 +175,7 @@ p {
 .describe-info {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 36px;
 }
 
@@ -277,7 +277,7 @@ p {
 }
 
 .to-top-of-the-site-link {
-  transition: .2s;
+  transition: 0.2s;
   position: fixed;
   bottom: 1.8rem;
   right: 1.5rem;
